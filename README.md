@@ -52,7 +52,7 @@ Input:
                 this::class.java.getResourceAsStream("/test_omitted_both.json"),
                 "UTF-8"
         )
-        val result = converter.convert(xml)
+        val result = converter.convert(xml)!!.replace("\r\n", "\n")
         assertEquals(json,result)
     }
 ```
@@ -102,7 +102,7 @@ Input:
                 this::class.java.getResourceAsStream("/test_omitted_booleans.json"),
                 "UTF-8"
         )
-        val result = converter.convert(xml)
+        val result = converter.convert(xml)!!.replace("\r\n", "\n")
         assertEquals(json,result)
     }
 ```
@@ -152,7 +152,7 @@ Input:
                 this::class.java.getResourceAsStream("/test_omitted_numbers.json"),
                 "UTF-8"
         )
-        val result = converter.convert(xml)
+        val result = converter.convert(xml)!!.replace("\r\n", "\n")
         assertEquals(json,result)
     }
 ```
