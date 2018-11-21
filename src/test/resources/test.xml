@@ -1,0 +1,30 @@
+<test>
+    <inside>
+        <someString>string</someString>
+        <someNumber>123</someNumber>
+        <someBoolean>true</someBoolean>
+        <someOtherNumber>123.45</someOtherNumber>
+    </inside>
+    <someArray>
+        <arrayItem>1</arrayItem>
+        <arrayItem>2</arrayItem>
+        <arrayItem>3</arrayItem>
+    </someArray>
+    <complexArray>
+        <complexItem>
+            <name>test1</name>
+            <value>1</value>
+            <enabled>true</enabled>
+        </complexItem>
+        <complexItem>
+            <name>test2</name>
+            <value>2</value>
+            <enabled>false</enabled>
+        </complexItem>
+        <complexItem>
+            <name>test3</name>
+            <value>3</value>
+            <enabled>true</enabled>
+        </complexItem>
+    </complexArray>
+</test>

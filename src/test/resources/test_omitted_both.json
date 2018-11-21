@@ -1,0 +1,28 @@
+{
+  "test" : {
+    "inside" : {
+      "someString" : "string",
+      "someNumber" : 123,
+      "someBoolean" : true,
+      "someOtherNumber" : "123.45"
+    },
+    "someArray" : {
+      "arrayItem" : [ 1, 2, 3 ]
+    },
+    "complexArray" : {
+      "complexItem" : [ {
+        "name" : "test1",
+        "value" : 1,
+        "enabled" : true
+      }, {
+        "name" : "test2",
+        "value" : 2,
+        "enabled" : false
+      }, {
+        "name" : "test3",
+        "value" : 3,
+        "enabled" : true
+      } ]
+    }
+  }
+}
